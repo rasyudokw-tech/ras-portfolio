@@ -1,172 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="gtw.css">
-  <script src="gtw.js"></script>
-    <title>RAS DEV</title>
+    <title>RASWEB</title>
+    <link rel="stylesheet" href="first.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<button id="backToTop" title="Kembali ke atas">
+  ↑
+</button> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <nav>
+   <nav>
     <div class="logo">
-        RAS DEV 
-    </div>
+    <img src="logo.jpg" alt="RAS WEB Logo">
+    <span>RAS WEB</span>
+</div>
 
-    <ul class="nav-links">
+    <ul class="atas">
         <li><a href="#Home">Home</a></li>
-        <li><a href="#Properties">Properties</a></li>
-        <li><a href="#Services">Services</a></li>
         <li><a href="#About">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Price">Price</a></li>
+        <li><a href="#FAQ">FAQ</a></li>
         <li><a href="#Contact">Contact</a></li>
     </ul>
 
-    <button>Get Started</button>
+    <div class="nav-right">
+    <a href="https://wa.me/6285759547987" class="wa">Contact Me</a>
+    </div>
 </nav>
-<section class="hero" id="Home">
+   <section id="Home">
+    <h1 id="typing-text"></h1>
+    <img src="dragon.jpg">  
+<h2>Welcome to RASWEB</h2>
+<p>A simple portfolio where I share my projects, skills, and web development journey.</p>
+<p>Feel free to explore! 🚀</p>
+   </section>
+    <section class="sek" id="About">
+    <h2>About Me</h2>
 
-    <div class="hero-text">
-        <h1>Find Your </h1>
-        <h1>Dream Home  </h1>
+    <p>Halo, nama saya Rasyudo saya umur 13 tahun</p>
+    <p>Kelas 1 SMP ini website pertama saya buat portofolio</p>
+    <p>saya udah jadi programer selama 3 bulan</p>
 
-        <p>
-            Discover premium properties in the best locations with affordable prices.
-        </p>
-
-        <button>Explore Properties</button>
-        <button>Contact Us</button>
+    <div id="more-about">
+        <p>Saya masih terus belajar dan mengembangkan kemampuan saya di bidang web development.</p>
+        <p>Saat ini saya sedang mempelajari HTML, CSS, JavaScript, dan Python.</p>
+        <p>Saya suka mencoba hal baru dan mengubah ide sederhana menjadi sebuah project.</p>
+        <p>Setiap project yang saya buat jadi kesempatan buat saya belajar sesuatu yang baru.</p>
+        <p>Jika tertarik dengan website bikinan saya bisa hubungi saya dengan tekan contact me</p>
     </div>
 
-    <div class="gambar">
-        <img src="imah.webp" alt="foto">
+    <button id="read-more">Read More 👀</button>
+
+    <section class="journey" id="journey">
+    <span class="journey-tag">● MY JOURNEY</span>
+
+    <h2>Learning <span>Journey</span></h2>
+    <p class="journey-desc">
+        Perjalanan saya dalam belajar dan mengembangkan skill di dunia programming.
+    </p>
+
+    <div class="timeline">
+
+        <div class="item">
+            <div class="icon html">&lt;/&gt;</div>
+            <div class="content">
+                <span class="date">JUNI 2026</span>
+                <h3>HTML</h3>
+                <p>Mulai belajar struktur dasar website dan memahami cara kerja tag serta element.</p>
+            </div>
+            <span class="number">01</span>
+        </div>
+
+        <div class="item">
+            <div class="icon css">🎨</div>
+            <div class="content">
+                <span class="date">JULI 2026</span>
+                <h3>CSS</h3>
+                <p>Belajar styling, layout, warna, dan responsive design.</p>
+            </div>
+            <span class="number">02</span>
+        </div>
+
+        <div class="item">
+            <div class="icon js">JS</div>
+            <div class="content">
+                <span class="date">AGUSTUS 2026</span>
+                <h3>JavaScript</h3>
+                <p>Membuat website lebih interaktif dengan DOM, event, dan animasi sederhana.</p>
+            </div>
+            <span class="number">03</span>
+        </div>
+
+        <div class="item">
+            <div class="icon py">🐍</div>
+            <div class="content">
+                <span class="date">SEPTEMBER 2026 – SEKARANG</span>
+                <h3>Python</h3>
+                <p>Sedang mempelajari logika pemrograman dan dasar backend.</p>
+            </div>
+            <span class="number">04</span>
+        </div>
+
     </div>
-
-    <section class="featured-properties" id="Properties">
-  <div class="section-heading">
-    <span>OUR PROPERTIES</span>
-    <h2>Featured Properties</h2>
-    <p>Discover some of our best properties selected for you.</p>
-  </div>
-
-  <div class="property-grid">
-
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Minimalist House">
-
-      <div class="property-info">
-        <span class="property-type">FOR SALE</span>
-        <h3>Modern Minimalist House</h3>
-        <p class="location">📍 Sukabumi, Jawa Barat</p>
-
-        <div class="property-details">
-          <span>🛏 3 Beds</span>
-          <span>🛁 2 Baths</span>
-          <span>📐 120 m²</span>
-        </div>
-
-        <div class="property-bottom">
-          <strong>Rp 850 Jt</strong>
-          <button>View Details</button>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Luxury Villa">
-
-      <div class="property-info">
-        <span class="property-type">FOR SALE</span>
-        <h3>Luxury Modern Villa</h3>
-        <p class="location">📍 Bandung, Jawa Barat</p>
-
-        <div class="property-details">
-          <span>🛏 4 Beds</span>
-          <span>🛁 3 Baths</span>
-          <span>📐 210 m²</span>
-        </div>
-
-        <div class="property-bottom">
-          <strong>Rp 1,5 M</strong>
-          <button>View Details</button>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80" alt="Modern Apartment">
-
-      <div class="property-info">
-        <span class="property-type">FOR RENT</span>
-        <h3>Modern City Apartment</h3>
-        <p class="location">📍 Jakarta Selatan</p>
-
-        <div class="property-details">
-          <span>🛏 2 Beds</span>
-          <span>🛁 2 Baths</span>
-          <span>📐 85 m²</span>
-        </div>
-
-        <div class="property-bottom">
-          <strong>Rp 8 Jt / bln</strong>
-          <button>View Details</button>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </section>
 
- <section id="About" >
-
-  <div class="About">
-
-    <h2>About RASDEV</h2>
-  <p>RASDEV is a personal development space where ideas are turned into functional and modern digital experiences.</p>
-<p>I focus on building websites, experimenting with new technologies, and continuously improving my development skills.</p>
-
+</section>
+            <section id="project">
+    <h2>My Projects</h2>
+    <div class="project-counter">
+    <span id="project-count">1+</span>
+    <p>Projects</p>
+</div>  
+    <div class="projek">
+    <h3>RASDEV</h3>
+        <img src="RASDEV.png">
+       <a href="https://rasyudokw-tech.github.io/ras-portfolio/" class="projek-btn">View Project</a>
+    <p>Website project yang saya buat untuk menampilkan karya dan kemampuan web development saya.</p>
+    <p>💻 HTML & CSS</p>
+<p>🎨 Custom Design</p>
+<p>📱 Responsive Website</p>
+<p>🚀 Project By Rasyudo</p>
 </div>
-  
- </section>
+</section> 
+<section id="Services" class="Services">
+    <h2>Services</h2>
+   <p> 💻Website Development💻>Saya membuat website sederhana dan modern menggunakan HTML, CSS, dan JavaScript.</p>
+   <p>🎨Custom Design🎨>Saya membuat tampilan website sesuai dengan konsep dan kebutuhan yang diinginkan.</p>
+   <p>📱Responsive Website Saya📱>membuat website yang dapat menyesuaikan tampilannya di berbagai ukuran layar, seperti komputer dan HP.</p>
+   <p>📜Portfolio Website📜>Saya membuat website portfolio untuk menampilkan profil, project, dan kemampuan yang dimiliki.</p>
+   <p>🛠️Website Improvement🛠️>Saya membantu mengembangkan dan memperbaiki tampilan website agar menjadi lebih menarik dan nyaman digunakan.</p>
+</section>
 
- <section id="Services" >
-
-  <div class="Services">
-<h2>Services</h2>
-<P>Property Listings→Explore a variety of properties available for sale or rent, with detailed information for each listing.</P>
-<P>Property Search→Find properties based on your preferred location, type, price, and other requirements.</P>
-<P>Property Information→Get clear and useful information about each property to help you make better decisions.</P>
-<P>Property Consultation→Need help finding the right property? Contact us to discuss your needs and preferences.</P>  
+<section>
+    <div class="why">
+<h2>Why Choose Me</h2>
+<p>⚡ Fast & Responsive — website nyaman dibuka di HP maupun PC</p>
+<p>🎨 Modern Design — desain disesuaikan kebutuhan bisnis</p>
+<p>💬 Easy Communication — gampang diskusi dan revisi   </p>
+<p>💰 Affordable — cocok untuk bisnis yang baru berkembang</p>   
 </div>
+</section>
 
- </section>
+<section id="Price">
+    <h1>Price</h1>
+</section>
 
- <section id="Contact">
-
-  <div class="contact">
-    <h2>Contact Us</h2>
-  <p> Interested in one of our properties? Explore our listings and get in touch to learn more.</p>
-  <button>Explore Properties →  </button>
-  <p>Thank you for visiting this website.</p>
-  <p>goodbye</p>
-  <img src="dadah.png" alt="dadah">
+<section id="Price" class="harga">
+    <div class="card">
+ <div class="starter">
+        <p>Starter</p>
+        <h1>Rp200k</h1>
+        <ul>
+  <li>✓ Landing Page</li>
+    <li>✓ 1 Page</li>
+    <li>✓ 3-5 Section</li>
+<li>✓ Responsive Design</li>
+<li>✓ WhatsApp Button</li>
+<li>✓ Basic Animation</li>
+ <li>X Free Hosting</li>
+</ul>
+<a href="https://wa.me/6285759547987" class="wa">Get Started</a>
+    </div>
+    </div>
+    <div class="card">
+        <div class="bisnis">
+    <span class="badge">Best Value</span>
+    <p>Business</p>
+    <h1>Rp350k</h1>
+    <ul>
+        <li>✓ Company Profile</li>
+        <li>✓ 1 Page</li>
+        <li>✓ 5-7 Section</li>
+        <li>✓ Responsive</li>
+        <li>✓ Contact Form</li>
+        <li>✓ Basic SEO</li>
+        <li>✓ Free Hosting 1 Year</li>
+    </ul>
+    <a href="https://wa.me/6285759547987" class="wa">Get Started</a>
 </div>
-
- </section>
-
- <section>
-  
-<div class="balek">
-  <h2>ketuk tombol di bawah untuk kembali</h2>
-<a href="https://rasyudokw-tech.github.io/RASWEB/">←kembali</a>
-</div>
-
- </section>
-
- <section>
-    <h1>⚠️PERINGATAN⚠️</h1>
-    <h2>⚠️INI HANYA WEBSITE CONTOH BUKAN ASLI⚠️</h2>
- </section>
+    </div>
+   <div class="card">
+    <div class="premium">
+        <p>Premium</p>
+        <h1>Rp500k+</h1>
+        <ul>
+            <li>✓ Custom Website</li>
+            <li>✓ Custom Design</li>
+            <li>✓ Advanced Features</li>
+            <li>✓ 1-3 Pages</li>
+            <li>✓ More Section</li>
+            <li>✓ Priority Support</li>
+             <li>✓ Free Hosting 1 Year</li>
+        </ul>
+        <a href="https://wa.me/6285759547987" class="wa">Get Started</a>
+    </div>
+   </div>
 
 </section>
+
+<div class="lastt">
+    <p>Have a custom project? Let's discuss it.</p>
+    <p>Get a Quote</p>
+        ></div>
+
+<section id="FAQ" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p>Beberapa pertanyaan yang sering ditanyakan.</p>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Apakah website yang dibuat responsive?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Ya, website dibuat agar dapat menyesuaikan tampilan di komputer, tablet, dan HP.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Berapa lama pembuatan website?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Waktu pengerjaan tergantung dari tingkat kesulitan dan jumlah fitur yang dibutuhkan,bisa sekitar 1 jam sampai 1 hari sesuai tingkat kesulitan</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Apakah bisa request desain?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Ya, desain dapat disesuaikan dengan konsep dan kebutuhan website.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Bagaimana cara menghubungi RASWEB?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Silakan gunakan tombol Contact Me untuk menghubungi saya melalui WhatsApp.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="Contact">
+    <p>Anda tertarik dengan web saya silahkan tekan Contact Me di bawah ini</p>
+    <button id="contact-btn">Contact Me</button>
+    <button id="btn">Klik </button>
+    <p>Terima kasih sudah menggunakan jasa kami</p>
+</section>
+<div id="contact-popup" class="contact-popup">
+    <div class="contact-box">
+        <button id="close-contact">✖</button>
+
+        <h2>Contact Me 📩</h2>
+        <p>Silakan hubungi saya melalui WhatsApp.</p>
+
+        <a href="https://wa.me/6285759547987" target="_blank">
+            WhatsApp 💬
+        </a>
+    </div>
+</div>
+
+<div class="social-icons">
+    <a href="https://www.instagram.com/rasyudo_gaming" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/rasyudokw-tech" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@rasyudo_web_developer" target="_blank" aria-label="TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+</div>
+<section class="copy">
+   <h3>© 2026 Rasyudo</h3>
+</section>
+
+   
+<script src="first.js"></script>
 </body>
-</html>
+</html> 
