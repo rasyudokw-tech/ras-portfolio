@@ -9,6 +9,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    flex-wrap: wrap;
 
     padding:20px 80px;
 
@@ -314,14 +315,77 @@ span{
           flex-wrap: wrap;
     }
 
+    /* nav-links dulu horizontal gap 40px, kekecilan buat muat
+       di layar HP. Sekarang di-stack vertikal & center */
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        order: 3; /* pindah ke bawah logo & tombol */
+    }
+
     nav button {
         padding: 8px 12px;
-        margin: 0;
+        margin: 10px 0 0;
     }
 
     img {
         max-width: 80%;
         height: auto;
     }
-}
 
+    /* Hero: judul & tombol dulu ukurannya pas buat desktop,
+       di HP dikecilin dan tombol di-stack biar gak dempet */
+    .hero-text h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .hero p {
+        font-size: 15px;
+        padding: 0 16px;
+    }
+
+    .hero button {
+        display: block;
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    .gambar img {
+        width: 80%;
+        max-width: 280px;
+    }
+
+    /* Section About, Services, Contact: dulu gak ada padding
+       samping, teks nempel ke tepi layar di HP */
+    .About,
+    .Services,
+    .contact,
+    .balek {
+        padding: 0 20px;
+    }
+
+    .About h2,
+    .Services h2,
+    .contact h2 {
+        font-size: 28px;
+    }
+
+    .About p,
+    .Services p,
+    .contact p {
+        font-size: 16px;
+    }
+
+    .balek h2 {
+        font-size: 22px;
+        padding: 0 10px;
+    }
+
+    .balek a {
+        margin: 20px auto;
+        display: inline-block;
+    }
+}
